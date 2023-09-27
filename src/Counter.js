@@ -13,6 +13,7 @@ const Counter = () => {
             </div>
             <section className='btn-container'>
                 <button onClick={() => setCount(count + 5)} className='increment'>+</button>
+                <button onClick={() => setCount(0)} className='increment'>Reset</button>
                 <button onClick={() => setCount(count - 5)} className='increment'>-</button>
             </section>
         </>
